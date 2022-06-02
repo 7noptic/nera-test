@@ -1,0 +1,46 @@
+.jsa {
+  &b {
+    animation: jsab .7s forwards ease-in-out;
+  }
+
+  &t {
+    animation: jsat .7s forwards ease-in-out;
+  }
+
+  &l {
+    animation: jsal .7s forwards ease-in-out;
+  }
+}
+
+@keyframes jsab {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes jsat {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes jsal {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

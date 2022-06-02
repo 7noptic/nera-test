@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'The Rave Is In Your Pants';
+  src: local('../fonts/trip'), local('trip'),
+  url('../fonts/trip.woff2') format('woff2'),
+  url('../fonts/trip.woff') format('woff'),
+  url('../fonts/trip.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  src: local('TT Commons  Demi Bold'), local('TT-Commons--Demi-Bold'),
+  url('../fonts/TTCommons-DemiBold.woff2') format('woff2'),
+  url('../fonts/TTCommons-DemiBold.woff') format('woff'),
+  url('../fonts/TTCommons-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
